@@ -4,10 +4,13 @@
     }
     /* box-sizing: border-box;
 } */
+    /* #don {
+        margin-bottom: 1px;
+    } */
     
     .col-md #spic {
-        position: relative;
-        padding-bottom: 40px;
+        height: 50%;
+        width: 50%;
     }
     
     .navbar-brand {
@@ -20,8 +23,13 @@
     
     img {
         border: 1px 2px 5px;
-        border-radius: 27%;
+        border-radius: 25%;
         box-shadow: 1px 2px 10px black;
+    }
+    
+    img #aboutme {
+        position: relative;
+        left: 20rem;
     }
     
     @media(min-width:768px) {
