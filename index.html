@@ -24,16 +24,17 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
-            <a class="navbar-brand " href="#">Portfolio</a>
+            <a class="navbar-brand " href="#home">Portfolio.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Get in Touch</a></li>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -41,7 +42,7 @@
 
     <!--Showcase  -->
     <section class="bg-dark text-light p5 p-lg-0 text-center text-md-start">
-        <div class="container">
+        <div class="h-100 container">
             <div class="d-sm-flex align-items-center justify-content-between    ">
                 <div>
                     <h1>I'm on a road to Full Stack <span class="text-danger"><br>Web development</span> 👨‍💻</h1>
@@ -58,18 +59,112 @@
         </div>
     </section>
     <!-- Resume section-->
-    <section class="bg-danger text-light p-5">
-        <div class="container">
-            <div class="d-md-flex justify-content-between align-items-center">
+    <section class="bg-danger text-light p-5 ">
+        <div class="container ">
+            <div class="d-sm-flex justify-content-between align-items-center">
                 <h3 class="mb-3 mb-md-0">Hey 🙋‍♂️, Want to check out some small projects that I've Learned so far? </h3>
                 <div class="hero">
-                    <button type="button" class="btn btn-light">Have a look here !  👆</button>
+                    <button type="button" class="btn btn-light"><a href="#projects" class="nav-link">Have a look here !  👆</a></button>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- blockquote -->
+    <section class="bg-dark text-light p-5">
+        <blockquote class="blockquote text-right lead text-light">
+            <p class="mb-0">“ Dreams don’t have to just be dreams. You can make it a reality; if you just keep pushing and keep trying, then eventually you’ll reach your goal. And if that takes a few years, then that’s great, but if it takes 10 or 20, then that’s part
+                of the process. ”
+            </p>
+            <footer class="blockquote-footer lead pt-4 text-white">Dread Sabbah <cite title="Source Title">Sydney</cite></footer>
+        </blockquote>
+    </section>
 
+    <span class="icons"></span>
+
+    <!-- Projects -->
+    <!-- create a link to each projects  -->
+
+    <h1 class="h1 d-flex justify-content-center mb-5 pt-3  text-danger">Projects</h1>
+    <section class="p-5">
+        <div class="container ">
+            <div class="row text-center g-5">
+                <div class="col-md">
+                    <div class=" card bg-dark text-light">
+                        <img class="card-img-top" src="./imgs/facebook_clone.png" alt="facebook">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Facebook Clone</h5>
+                            <p class="lead card-text">I have created a facebook landing clone page using HTML and CSS. Still a lot of new things to add on.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <img class="card-img-top" src="imgs/guess-number.png" alt="Guess Number">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Guess Number</h5>
+                            <p class="card-text lead">Created this number guessing game using JavaScript. More optimizations are on it's way, Stay tuned !</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <img class="card-img-top" src="imgs/portfolio.png" alt="Portfolio">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Portfolio</h5>
+                            <p class="card-text lead">I have created this simple looking portfolio using HTML and CSS. I will inject more tech. in the future </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img id="spic" class="w-75 pt-5" src="./imgs/skills.png" alt="">
+                </div>
+                <div class="col-md pt-5">
+                    <h2 class="display-5 pb-4">What I have Learned so far</h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ut quibusdam. Animi perferendis tempore suscipit numquam omnis eum vero veniam aut quod eligendi et minus molestiae est cum, sint eius?
+                    </p>
+                    <div class="container">
+                        <h4 class="display-5">HTML</h4>
+                        <div class="progress mb-5" style="height: 25px;">
+
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 95%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <h4 class="display-5">CSS</h4>
+                        <div class="progress mb-5" style="height: 25px;">
+
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 95%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+
+                        <h4 class="display-5">JAVASCRIPT</h4>
+                        <div class="progress mb-5" style="height: 25px;">
+
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 95%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                        <h4 class="display-5">BOOTSTRAP</h4>
+                        <div class="progress mb-5" style="height: 25px;">
+
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 95%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">95%</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <!-- bootstrap js -->
