@@ -44,6 +44,27 @@
                         font-family: 'Amatic SC', cursive;
                     }
                     
+                    .pro-head {
+                        font-family: 'Amatic SC', cursive;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 5rem;
+                    }
+                    
+                    .skill-section {
+                        font-family: 'Amatic SC', cursive;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 5rem;
+                    }
+                    
+                    .about-section {
+                        font-family: 'Amatic SC', cursive;
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 5rem;
+                    }
+                    
                     .contactme .display-2 {
                         text-transform: uppercase;
                         text-align: center;
@@ -106,6 +127,10 @@
                         font-family: 'Amatic SC', cursive;
                     }
                     
+                    #hero1 .card-text {
+                        font-weight: bolder;
+                    }
+                    
                     img {
                         border: 1px 2px 5px;
                         border-radius: 25%;
@@ -160,6 +185,10 @@
                         grid-area: card6;
                     }
                     
+                    h4 {
+                        font-weight: bolder;
+                    }
+                    
                     footer .container {
                         font-size: 40px;
                         text-align: center;
@@ -168,7 +197,7 @@
                     }
                     
                     .aboutmeSec {
-                        background-image: url(https://images.pexels.com/photos/448835/pexels-photo-448835.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+                        background-image: url(https://images.unsplash.com/photo-1516979187457-637abb4f9353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=800);
                         background-size: cover;
                     }
                     
