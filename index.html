@@ -7,6 +7,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <!-- css -->
 
@@ -22,16 +30,16 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
         <div class="container">
-            <a class="navbar-brand " href="#home">Portfolio.</a>
+            <a class="navbar-brand " href="#">Portfolio.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                 <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navmenu">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
@@ -41,12 +49,16 @@
     </nav>
 
     <!--Showcase  -->
-    <section class="bg-dark text-light p5 p-lg-0 text-center text-md-start">
-        <div class="h-100 container">
+    <section class=" bg-dark text-light p5 p-lg-0 text-center text-md-start">
+        <div class=" container">
             <div class="d-sm-flex align-items-center justify-content-between">
                 <div>
-                    <h1>I'm on a road to Full Stack <span class="text-danger"><br>Web development</span> 👨‍💻</h1>
-                    <p class="lead text-light my-4 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eius quam accusantium eaque eum suscipit illo facilis perferendis magnam accusamus nesciunt asperiores repellat deserunt inventore ipsum hic, similique dolor quibusdam.</p>
+                    <br>
+                    <h1 id="headH1" class="mt-5">I'm a Full Stack <span class="text-danger"><br>Web developer</span> 👨‍💻
+                    </h1>
+                    <p id="para1" class="lead text-light my-5 ">Energetic and passionate fresh graduate<br> currently looking for opportunities to utilise and grow my technical abilities<br> as a full stack web developer<br> I have desire to learn and embrace the latest technologies. I love solving
+                        challenging problems.
+                    </p>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Enter your E-mail | Lets get to know each other " aria-label="username" aria-describedby="basic-addon2">
                         <div class="input-group-append">
@@ -55,13 +67,13 @@
                     </div>
                     <!-- <button type="button" class="btn btn-primary">Primary</button> -->
                 </div>
-                <img class="img-fluid w-50 mb-4 d-none d-sm-block" src="./imgs/img1.jpg" alt="">
+                <img id="img-top" class="img-fluid w-50 mb-4 d-none d-sm-block" src="./imgs/img1.jpg" alt="">
             </div>
         </div>
 
     </section>
     <!-- Resume section-->
-    <section class="bg-danger text-light p-5 ">
+    <section class="  bg-danger text-light p-5 ">
         <div class="container ">
             <div class="d-sm-flex justify-content-between align-items-center">
                 <h3 class="mb-3 mb-md-0">Hey 🙋‍♂️, Want to check out some small projects that I've Learned so far? </h3>
@@ -87,49 +99,58 @@
     <!-- Projects -->
     <!-- create a link to each projects  -->
 
-    <h1 class="display-2 d-flex justify-content-center mb-5 pt-3  text-danger">PROJECTS</h1>
-    <section class="p-5">
-        <div class="container ">
-            <div class="row text-center g-5">
-                <div class=" col-md">
-                    <div class=" mb-4 card bg-dark text-light">
-                        <img class="card-img-top" src="./imgs/facebook_clone.png" alt="facebook">
-                        <div class=" card-body text-center">
-                            <h5 class="card-title">Facebook Clone</h5>
-                            <p class="lead card-text">I have created a facebook landing clone page using HTML and CSS. Still a lot of new things to add on.</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <img class="card-img-top" src="imgs/guess-number.png" alt="Guess Number">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Guess Number</h5>
-                            <p class="card-text lead">Created this number guessing game using JavaScript. More optimizations are on it's way, Stay tuned !</p>
-                            <a href="#" class="btn btn-primary">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="card bg-dark text-light">
-                        <img class="card-img-top" src="imgs/portfolio.png" alt="Portfolio">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Portfolio</h5>
-                            <p class="card-text lead">I have created this simple looking portfolio using HTML and CSS. I will inject more tech. in the future </p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-
-
-                    </div>
-
-                </div>
+    <h1 class="display-2 justify-content-center bg-light  text-danger pt-4 ">PROJECTS</h1>
+    <section id="projects" class=" sec pt-5 mb-4">
+        <div class="card btn-light" style="width: 18rem;">
+            <img class="card-img-top mb-4 bg-light" src="imgs/guess-number.png" style="height:300px" alt="GuessNumber">
+            <div class="card-body bg-light text-dark    ">
+                <p class="card-text" style="text-align: justify;">
+                    <h4>Tried to make guess my number game with JS!</h4> <img src="" alt="">
+                </p>
             </div>
         </div>
+        <div id="hero1" class=" card bg-light text-dark" style="width: 18rem;">
+            <img class="card-img-top " src="imgs/portfolio.png" alt="Portfolio">
+            <div class="card-body">
+                <p class="card-text">
+                    <h4>I have created this simple looking portfolio using HTML and CSS. I will inject more tech. in the future.</h4>
+                </p>
+            </div>
         </div>
+        <div id="hero2" class=" card" style="width: 18rem;">
+            <img class="card-img-top bg-dark" src="./imgs/facebook_clone.png" alt="FbClone">
+            <div class="card-body bg-light   text-dark">
+                <p class="card-text">
+                    <h4>I have created a facebook landing clone page using HTML and CSS. Still a lot of new things to add on.</h4>
+                </p>
+            </div>
         </div>
-
+        <div id="hero3" class=" card" style="width: 18rem;">
+            <img class="card-img-top" src="./imgs/prank-calc.png" style="height: 18rem;" alt="prankCalc">
+            <div class="card-body">
+                <p class="card-text">
+                    <h4>I have tried some cool stuff with JavaScript. "Prank Calculator"</h4>
+                </p>
+            </div>
+        </div>
+        <div id="hero4" class=" card" style="width: 18rem;">
+            <img class="card-img-top" src="https://breaksandbites.files.wordpress.com/2016/11/coming-soon-image.png " alt="ComingSoon">
+            <div class="card-body">
+                <p class="card-text">
+                    <p>
+                        <h4> More JavaScripts projects coming very soon.. Stay Tuned ! 🔔</h4>
+                    </p>
+            </div>
+        </div>
+        <div id="hero1" class=" card" style="width: 18rem;">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvNwAT_Httcf5mB_Ag8zkMzvcXs8KzqX6bkQ&usqp=CAU" style="height:300px" alt="MERN">
+            <div class="card-body">
+                <p class="card-text">
+                    <h4>More Interesting MERN PROJECTS</h4> <br>
+                    <h4>Coming Soon!</h4>
+                </p>
+            </div>
+        </div>
 
     </section>
 
@@ -178,7 +199,7 @@
 
     <!-- ABOUT ME -->
 
-    <section class="bg-danger text-dark p5 p-lg-0 text-center text-md-start">
+    <section id="about" class=" aboutmeSec bg-danger text-light p5 p-lg-0 text-center text-md-start">
         <div class="h-100 container">
 
             <div class="d-sm-flex align-items-center justify-content-left   ">
@@ -189,7 +210,7 @@
                     <div class="row align-items-center justify-content-between">
 
                         <div class="col-md pt-5 text-white">
-                            <h2 class="display-5 pb-4">Education 👨‍💻</h2>
+                            <h2 class="display-5 pb-4 text-" style="font-weight: bolder;">Education 👨‍💻</h2>
 
                             <div class="container bg-dark">
                                 <div class="card-header ">
@@ -221,7 +242,7 @@
 
                         </div>
                         <div class="col-md">
-                            <img id="spic" class=" w-100 mt-4" src="./imgs/Education.jpg" alt="">
+                            <img id="spics" class=" w-100 mt-4" src="./imgs/ashim1.jpg" alt="">
                         </div>
 
                     </div>
@@ -231,13 +252,90 @@
 
             </div>
     </section>
+    <!-- What people say about me  -->
+
 
     <!-- Contact Me -->
+    <section id="contact" class="contactme">
+        <h1 class="display-2">Get in touch</h1>
+        <div class="container">
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            <br>
+            <div class="col">
+                <input type="email" class="form-control form-control " id="colFormLabelSm" placeholder="Your Email ! ✉️">
+            </div>
+            <br>
+            <div class="input-group">
+                <span class="input-group-text bg-dark text-white">Message</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+            </div>
+    </section>
 
 
 
 
     <!-- Footer -->
+
+    <footer>
+        <footer class="page-footer font-large bg-dark  text-white">
+
+            <!-- Footer Elements -->
+            <div class="container">
+
+                <!-- Grid row-->
+                <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 py-5">
+                        <div class="mb-5 flex-center">
+
+                            <!-- Facebook -->
+                            <a class="fb-ic">
+                                <i class="fa-brands fa-facebook "></i>
+                            </a>
+                            <!-- Twitter -->
+                            <a class="tw-ic">
+                                <i class="fab fa-twitter"> </i>
+                            </a>
+
+                            <!--Linkedin -->
+                            <a class="li-ic">
+                                <i class="fab fa-linkedin-in "> </i>
+                            </a>
+
+                            <!--Pinterest-->
+                            <a class="pin-ic">
+                                <i class="fab fa-pinterest"> </i>
+                            </a>
+                            <a class="fa-brands fa-github">
+                                <i class="fab fa-pinterest"> </i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
+            </div>
+            <!-- Footer Elements -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="#"> Ashim Poudel</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+    </footer>
 
     <!-- bootstrap js -->
 
