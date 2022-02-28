@@ -29,7 +29,7 @@
 <body>
 
     <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark  navbar-dark">
         <div class="container">
             <a class="navbar-brand fw-bolder fs-2" href="#">Portfolio.</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -58,14 +58,13 @@
                         <h1 class="display-5 text-secondary fw-bolder">Hello, <span class="text-con display-2 fw-bolder">I'm</span> </h1>
                         <h1 class=" typing display-3 typing text-warning fw-bold"></h1>
                     </div>
-                    <!-- <h1 id="headH1" class="mt-5">I'm a Full Stack <span class="text-danger"><br>Web developer</span> 👨‍💻
-                    </h1> -->
+
                     <p id="para1" class="lead text-light my-5 fw-bold fs-2 ">Energetic and passionate fresh graduate<br> currently looking for opportunities to utilise and grow my technical abilities<br> as a full stack web developer<br> I have desire to learn and embrace the latest technologies. I love solving
                         challenging problems.
                     </p>
 
                 </div>
-                <img id="img-top" class=" mb-4 d-none d-sm-block" src="./imgs/img1.jpg" alt="">
+                <img id="img-top" class=" mb-4 d-none d-lg-block" src="./imgs/img1.jpg" alt="">
             </div>
         </div>
 
@@ -73,10 +72,10 @@
     <!-- Resume section-->
     <section class="  bg-danger text-light p-5 ">
         <div class="container ">
-            <div class="d-sm-flex justify-content-between align-items-center">
+            <div class="d-md-flex justify-content-between align-items-center">
                 <h3 class="mb-3 mb-md-0">Hey 🙋‍♂️, Want to check out some small projects that I've Learned so far? </h3>
                 <div class="hero">
-                    <button type="button" class="btn btn-light"><a href="#projects" class="nav-link">Have a look here !  👆</a></button>
+                    <button type="button" class="btn btn-light d-md-block fw-bolder "><a href="#projects" class="nav-link">Have a look here !  👆</a></button>
                 </div>
             </div>
         </div>
@@ -98,15 +97,15 @@
     <!-- create a link to each projects  -->
 
     <div class="project-title">
-        <h1 class="pro-head display-2 justify-content-center bg-light  text-danger pt-4 ">PROJECTS</h1>
+        <h1 class="pro-head display-2 justify-content-center bg-light  text-danger pt-4 fw-bolder ">PROJECTS</h1>
     </div>
 
-    <section id="projects" class=" sec pt-5 mb-4">
+    <section id="projects" class=" sec pt-md-5 mb-md-4">
 
         <div id="hero" class="card btn-light" style="width: 18rem;">
 
             <img class="card-img-top bg-light text-dark" src="imgs/guess-number.png" style="height:200px" alt="GuessNumber">
-            <div class="card-body bg-light text-dark    ">
+            <div class="card-body bg-light text-dark">
                 <p class="card-text" style="text-align: justify;">
                     <h4 class="display-6 fw-bolder">Tried to make guess my number game with JS!</h4> <img src="" alt="">
                 </p>
@@ -137,20 +136,47 @@
             </div>
         </div>
         <div id="hero4" class=" card" style="width: 18rem;">
-            <img class="card-img-top" src="https://breaksandbites.files.wordpress.com/2016/11/coming-soon-image.png " style="height:200px" alt="ComingSoon">
+            <img class="card-img-top" src="./imgs/calculator.jpg " style="height:200px" alt="Calculator">
             <div class="card-body">
                 <p class="card-text">
                     <p>
-                        <h4 class="display-6 fw-bolder "> More JavaScripts projects coming very soon.. Stay Tuned ! 🔔</h4>
+                        <h4 class="display-6 fw-bolder "> I have learned how to create Calculator using React for the very first time ! </h4>
                     </p>
             </div>
         </div>
-        <div id="hero1" class=" card" style="width: 18rem;">
-            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvNwAT_Httcf5mB_Ag8zkMzvcXs8KzqX6bkQ&usqp=CAU" style="height:200px" alt="MERN">
+        <div id="hero5" class=" card" style="width: 18rem;">
+            <img class="card-img-top" src="./imgs/contact-list.jpg" style="height:200px" alt="ContactList">
             <div class="card-body ">
                 <p class="card-text ">
-                    <h4 class=" display-6 fw-bolder">More Interesting MERN PROJECTS</h4> <br>
-                    <h4 class=" display-6 fw-bolder">Coming Soon🔜</h4>
+                    <h4 class=" display-6 fw-bolder">Created another interesting JS Project which fetches API to display contact lists. </h4> <br>
+
+                </p>
+            </div>
+        </div>
+        <div id="hero6" class=" card" style="width: 18rem;">
+            <img class="card-img-top" src="./imgs/not-to-do.jpg" style="height:200px" alt="ContactList">
+            <div class="card-body ">
+                <p class="card-text ">
+                    <h4 class=" display-6 fw-bolder">Everyone has ToDo's List, I have Tried to create NotToDo's List using Bootstrap and JS. </h4> <br>
+
+                </p>
+            </div>
+        </div>
+        <div id="hero7" class=" card" style="width: 18rem;">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpyAa2WDMmULbShiK3ge5e0qNtVd9UC7tdVmWad5rQIeLzl3N0QCzy--9VFmT-i6bsg4g&usqp=CAU" style="height:200px" alt="ContactList">
+            <div class="card-body ">
+                <p class="card-text ">
+                    <h4 class=" display-6 fw-bolder">More JS Projects Coming Soon! Stay Tuned 🔔 </h4> <br>
+
+                </p>
+            </div>
+        </div>
+        <div id="hero8" class=" card" style="width: 18rem;">
+            <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMcnfMXLNrzxkJj6qgEICZCrLBfn6t7h37Cg&usqp=CAU" style="height:200px" alt="ContactList">
+            <div class="card-body ">
+                <p class="card-text ">
+                    <h4 class=" display-6 fw-bolder">More interesting React Projects Coming 🔜 </h4> <br>
+
                 </p>
             </div>
         </div>
@@ -168,30 +194,35 @@
                 </div>
                 <div class="col-md pt-5 text-white">
                     <h2 class="display-5 pb-4">What I have Learned so far</h2>
-                    <p class="lead">
+                    <p class="lead fs-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, ut quibusdam. Animi perferendis tempore suscipit numquam omnis eum vero veniam aut quod eligendi et minus molestiae est cum, sint eius?
                     </p>
                     <div class="container">
                         <h4 class="display-6 ">html</h4>
                         <div class="progress mb-5" style="height: 25px;">
 
-                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 95%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">95%</div>
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 95%;" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h4 class="display-6">css</h4>
                         <div class="progress mb-5" style="height: 25px;">
 
-                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
 
                         <h4 class="display-6">javascript</h4>
                         <div class="progress mb-5" style="height: 25px;">
 
-                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                         <h4 class="display-6">bootstrap</h4>
                         <div class="progress mb-5" style="height: 25px;">
 
-                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                            <div class="progress-bar lead text-md-center" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <h4 class="display-6">react</h4>
+                        <div class="progress mb-5" style="height: 25px;">
+
+                            <div class="progress-bar lead text-md-center fw-bold" role="progressbar" style="width: 20%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
 
@@ -292,7 +323,7 @@
                                 <i class="fab fa-pinterest"> </i>
                             </a>
                             <a class="fa-brands fa-github">
-                                <i class="fab fa-pinterest"> </i>
+
                             </a>
                         </div>
                     </div>
